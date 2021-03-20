@@ -47,20 +47,21 @@ app.use(cors());
 app.use(express.json());
 
 //mongodb connection
-const uri = process.env.ATLAS_URI;
-mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true}
-	);
-	const connsection = mongoose.connection;
-	mongoose.connection.once('open', () => {
-		console.log("MongoDB database connection established successfully");
-	})
-
-//require api files for routing
-const exercisesRouter = require('./routes/exercises');
-const usersRouter = require('./routes/users');
-
-app.use('/exercises', exercisesRouter);
-app.use('/users', usersRouter);
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://root:rootpass@react-express.7rssb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
+// const uri = process.env.ATLAS_URI;
+// mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true}
+// 	);
+// 	const connsection = mongoose.connection;
+// 	mongoose.connection.once('open', () => {
+// 		console.log("MongoDB database connection established successfully");
+// 	})
 
 app.listen(port, () => {
 	console.log(`Server is running on port: ${port}`);

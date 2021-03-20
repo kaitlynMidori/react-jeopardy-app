@@ -57,7 +57,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true}
 
 //require api files for routing
 const exercisesRouter = require('./routes/exercises');
-const usersRouter = require('./routes/users');
+const usersRouter = require('/users', usersRouter);
 
 app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
