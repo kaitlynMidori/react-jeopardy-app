@@ -1,0 +1,17 @@
+.navbar {
+    background-color: rgb(51, 25, 197);
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif
+}
+
+a:hover {
+    color: gold;
+}
+
+.gameTitle {
+    font-size: 25px;
+    color: gold;
+}

@@ -1,0 +1,21 @@
+.answerDiv {
+    font-size: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.answerContainer {
+    text-align: center;
+}
+
+.modalBtn {
+    background-color: rgb(51, 25, 197);
+    border: none;
+}
+
+.modalBtn:hover {
+    background-color: gold;
+    border: none;
+}
