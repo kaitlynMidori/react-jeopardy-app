@@ -1,0 +1,42 @@
+
+.boardContainer {
+    justify-content: space-around;
+    display: flex;
+    width: 75%;
+    padding: 30px;
+    /* align-items: baseline; */
+    /* width: 110vw; */
+    background-image: linear-gradient(blue, indigo);
+    border-style: solid;
+    border-color: red;
+    /* border-radius: 30px;
+    border-width: 1em; */
+    /* padding: 10px; */
+}
+
+/* .rowAndColumn {
+    flex-direction: row;
+    order: 1;
+}
+
+.image {
+    order: 2;
+} */
+
+/* #boardContainer {
+    width: 400px;
+    height: 400px;
+} */
+
+/* .boardContainer div {
+    flex: 5;
+} */
+
+/* * {
+    display: inline-block;
+} */
+
+/* .categoryRow {
+    width: 100%;
+    height: 10em;
+} */

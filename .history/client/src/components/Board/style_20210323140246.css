@@ -1,0 +1,28 @@
+.boardContainer {
+    width: 100%;
+    background-color: rgb(221, 111, 115);
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 30px;
+    border-width: 1em;
+    padding: 30px;
+}
+
+/* #boardContainer {
+    width: 400px;
+    height: 400px;
+}
+
+#boardContainer Div {
+    width: 50px;
+    height: 50px;
+} */
+
+/* * {
+    display: inline-block;
+} */
+
+/* .categoryRow {
+    width: 10em;
+    height: 10em;
+} */

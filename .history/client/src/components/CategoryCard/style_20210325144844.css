@@ -1,0 +1,23 @@
+.catCard {
+    /* background-image: linear-gradient(blue, indigo); */
+    background: transparent;
+    /* font-size: ; */
+    height: 7em;
+    width: 5em;
+    padding: .1em;
+    border-style: solid;
+    border-color: greenyellow;
+    /* border-width: 8px; */
+    /* background-color: rgb(0, 12, 153); */
+    font-family: 'Lexend', sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+/* .catBox {
+   flex-direction: row;
+    width: 7em;
+    height: 7em;
+    box-sizing: border-box;
+} */
+

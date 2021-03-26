@@ -1,0 +1,70 @@
+
+body {
+    /* background-image: url(../../TREBEK-4x3-1.png); */
+    width: 100%;
+    padding: 0;
+    /* background-color: #f9dcc4; */
+    /* background-image: image(client/src/views/TREBEK-4x3-1.png); */
+    border-style: solid;
+    /* border-radius: 20px; */
+    /* border-width: 1em; */
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.container {
+    width: 100%;
+    border-style: whitesmoke;
+}
+
+/* .boardContainer {
+    
+    width: 50%;
+} */
+
+h2, h3 {
+    color: whitesmoke;
+    font-family: 'Lexend', sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+.playerNumBtn {
+    /* background: rgb(238, 179, 103); */
+    border: none;
+}
+
+.playerNumBtn:hover {
+    background: rgb(26, 23, 168);
+    border: none;
+}
+
+.endGameBtn {
+    background: rgb(0, 5, 112);
+    border: solid;
+    border-color: whitesmoke;
+    font-size: 20px;
+}
+
+.endGameBtn:hover {
+    background: red;
+    border: none;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+.leaderboardHeading {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+

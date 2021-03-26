@@ -1,0 +1,40 @@
+.questionCard {
+    height: 7em;
+    width: 7.5em;
+    /* padding: 1em; */
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+    background-color: rgb(2, 27, 76);
+}
+
+/* .card {
+    height: 9em;
+    width: 11.3em;
+    padding: 1em;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    background-color: rgb(221, 111, 115);
+} */
+
+.btn-link {
+    width: 102%;
+    height: 104%;
+    border-color: black;
+    text-align: center;
+    background-color:rgb(2, 27, 76);
+    
+    color: rgb(252, 170, 33);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardCol {
+    /* padding: 0; */
+}
+
+.btn-link:hover {
+    color: white;
+}
+

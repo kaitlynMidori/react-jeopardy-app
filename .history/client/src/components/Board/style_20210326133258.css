@@ -1,0 +1,14 @@
+
+.boardContainer {
+    margin: auto;
+    display: flex;
+    width: 75%;
+    padding: 30px;
+    /* align-items: baseline; */
+    /* width: 110vw; */
+    /* background-image: linear-gradient(#ffd89b, #19547b); */
+    border-style: solid;
+    border-color: red;
+    background-image: url(client/src/image);
+}
+

@@ -1,0 +1,38 @@
+
+.catCol {
+    
+    
+    flex-direction: row;
+    
+    /* float: right; */
+    /* width: 500px; */
+    /* width: 20%;
+    height: 20%; */
+    /* box-sizing: content-box; */
+    /* padding: 0; */
+}
+
+.catCard {
+    /* height: 7.5em;
+    width: 8em;
+    padding: .3em; */
+    border-style: solid;
+    /* border-width: 8px; */
+    border-color: black;
+    display: flex;
+    /* font-weight: bold; */
+    background-color: rgb(2, 27, 76);
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.catBox {
+    width: 16%;
+    /* width: 7em;
+    height: 7em; */
+    /* box-sizing: border-box; */
+}
+

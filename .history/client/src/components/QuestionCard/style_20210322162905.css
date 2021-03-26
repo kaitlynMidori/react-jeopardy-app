@@ -1,0 +1,25 @@
+.questionCard {
+    height: 9em;
+    width: 11.5em;
+    padding: 1em;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    background-color: rgb(221, 111, 115);
+}
+
+.btn-link {
+    background-color:red;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardCol {
+    padding: 0;
+}
+
+.btn-link:hover {
+    color: white;
+}
+

@@ -1,0 +1,32 @@
+.catCard {
+    height: 5em;
+    width: 5em;
+    /* padding: 1em; */
+    border-style: solid;
+    border-color: rgb(0, 5, 112);
+    /* border-width: 8px; */
+    background-color: rgb(0, 12, 153);
+    font-family: 'Lexend', sans-serif;
+}
+
+
+/* .catCard {
+    height: 7em;
+    width: 7em;
+    border-style: solid;
+    border-color: rgb(0, 5, 112);
+    background-color: rgb(0, 12, 153);
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* .catBox {
+   flex-direction: row;
+    width: 7em;
+    height: 7em;
+    box-sizing: border-box;
+} */
+

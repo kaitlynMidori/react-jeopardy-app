@@ -1,0 +1,17 @@
+.catCard {
+    font-weight: bold;
+    background-color: rgb(51, 25, 197);
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    
+}
+
+.catBox {
+    width: auto;
+    height: 88px;
+}
+
+.catCol {
+    padding: 0;
+}

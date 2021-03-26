@@ -1,0 +1,52 @@
+#catCol {
+    /* display: flex;
+    flex: 1;
+    flex-direction: row-reverse; */
+}
+
+/* #catCol div {
+    width: 100px;
+    height: 50px;
+} */
+
+.catCard {
+    
+    /* height: 7.5em;
+    width: 8em;
+    padding: .3em; */
+    border-style: solid;
+    /* border-width: 8px; */
+    border-color: black;
+    
+    /* font-weight: bold; */
+    background-color: rgb(2, 27, 76);
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.col catCol{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+   display: -ms-flexbox;      /* TWEENER - IE 10 */
+   display: -webkit-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* width: 7em;
+    height: 7em; */
+    /* box-sizing: border-box; */
+}
+
+.catCol {
+    /* display: flexbox;
+    flex-wrap: nowrap;
+    flex-direction: row; */
+    /* float: right; */
+    /* width: 500px; */
+    /* width: 20%;
+    height: 20%; */
+    /* box-sizing: content-box; */
+    /* padding: 0; */
+}

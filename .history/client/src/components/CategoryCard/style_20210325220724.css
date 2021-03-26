@@ -1,0 +1,19 @@
+
+
+.catCard {
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(blue, indigo); */
+    background: transparent;
+    word-wrap: break-word;
+    /* font-size: ; */
+    /* height: 7em; */
+    width: 5em;
+    height: 100%;
+    padding: .1em;
+    border-style: solid;
+    font-family: 'Lexend', sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    overflow: auto;
+}

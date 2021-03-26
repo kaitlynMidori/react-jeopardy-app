@@ -1,0 +1,26 @@
+.catCard {
+    height: 5em;
+    width: 8em;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    /* font-weight: bold; */
+    background-color: rgb(51, 25, 197);
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.catBox {
+    /* width: 200px;
+    height: 200px; */
+    /* box-sizing: border-box; */
+}
+
+.catCol {
+    /* width: 20%;
+    height: 20%; */
+    /* box-sizing: content-box; */
+    /* padding: 0; */
+}

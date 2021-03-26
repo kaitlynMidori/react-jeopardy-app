@@ -1,0 +1,14 @@
+.boardContainer {
+    width: 75%;
+    background-color: rgb(221, 111, 115);
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 30px;
+    border-width: 1em;
+    padding: 40px;
+}
+
+.categoryRow {
+    width: 10em;
+    height: 10em;
+}

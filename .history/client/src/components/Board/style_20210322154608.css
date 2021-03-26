@@ -1,0 +1,7 @@
+.boardContainer {
+    background-color: rgb(221, 111, 115);
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 30px;
+    padding: 10px;
+}
