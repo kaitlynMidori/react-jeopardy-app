@@ -1,9 +1,11 @@
 
+
 .boardContainer {
-    margin: 0;
     display: flex;
     width: fit-content;
-    padding-right: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* position: relative; */
     /* align-items: baseline; */
     /* width: 110vw; */
     background-image: linear-gradient(#ffd89b, #19547b);
@@ -11,6 +13,18 @@
     border-color: red;
 }
 
+/* .rowAndColumn {
+    position: absolute;
+    right: 30px;
+} */
+
 .rowAndColumn {
-    padding-right: 20px;
+    position: 2;
+    /* position: absolute;
+    top: 0; */
+}
+
+.host {
+    position: 1;
+    margin: 13.5em auto 1em;
 }

@@ -2,6 +2,7 @@
 
 .catCard {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background: transparent;
     word-wrap: break-word;

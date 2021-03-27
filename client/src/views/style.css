@@ -1,6 +1,6 @@
 
 body {
-    width: 100%;
+    width: fit-content;
     /* background-color: #f9dcc4; */
     border-style: solid;
     /* border-radius: 20px; */
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: fit-content;
     border-style: whitesmoke;
 }
 

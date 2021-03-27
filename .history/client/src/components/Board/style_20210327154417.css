@@ -1,0 +1,29 @@
+
+
+.boardContainer {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0;
+    /* position: relative; */
+    /* align-items: baseline; */
+    /* width: 110vw; */
+    background-image: linear-gradient(#ffd89b, #19547b);
+    border-style: solid;
+    border-color: red;
+}
+
+/* .rowAndColumn {
+    position: absolute;
+    right: 30px;
+} */
+
+.rowAndColumn {
+    position: 2;
+    /* position: absolute;
+    top: 0; */
+}
+
+.host {
+    position: 1;
+    padding-bottom: 0;
+}

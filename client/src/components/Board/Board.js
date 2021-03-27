@@ -3,7 +3,7 @@ import CategoryCard from "../CategoryCard/CategoryCard";
 import QuestionCard from "../QuestionCard/QuestionCard";
 import API from "../../utils/API";
 import "./style.css";
-import hostImage from "../../image.png"
+import hostImage from "../../hostTrebek.png"
 
 
 function Board(props) {
@@ -69,7 +69,8 @@ useEffect(() => {
   return (
     
     <div className="boardContainer" >
-        <img src={hostImage} alt="alexTrebek" width= "500" height= "500"/>
+        <div class= "host"><img src={hostImage} alt="alexTrebek"/></div>
+        
         <div className= "rowAndColumn">
         <div className="row categoryRow">
             {categories.map((cat)=>{
@@ -103,10 +104,6 @@ useEffect(() => {
             })}
         </div>
         </div>
-        <div className= "image">
-            {/* <img src={hostImage} alt="alexTrebek" width= "500" height= "500"/> */}
-        </div>
-        
     </div>
     
     

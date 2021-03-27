@@ -1,0 +1,28 @@
+
+.boardContainer {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    /* align-items: baseline; */
+    /* width: 110vw; */
+    background-image: linear-gradient(#ffd89b, #19547b);
+    border-style: solid;
+    border-color: red;
+}
+
+/* .rowAndColumn {
+    position: absolute;
+    right: 30px;
+} */
+
+.rowAndColumn {
+    position: absolute;
+    top: 0;
+}
+
+/* .host {
+    background-color: violet;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+} */

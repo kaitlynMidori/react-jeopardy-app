@@ -1,0 +1,28 @@
+
+.boardContainer {
+    display: flex;
+    width: fit-content;
+    
+    /* align-items: baseline; */
+    /* width: 110vw; */
+    background-image: linear-gradient(#ffd89b, #19547b);
+    border-style: solid;
+    border-color: red;
+}
+
+.rowAndColumn {
+    position: absolute;
+    right: 30px;
+}
+
+.host {
+    object-position: left bottom;
+}
+
+/* .overlay {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0;
+    
+} */
