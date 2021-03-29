@@ -1,11 +1,21 @@
 
 body {
-    color: whitesmoke;
+    /* color: indigo; */
     width: fit-content;
     border-style: solid;
     border-color: rgb(234, 130, 178);
     background-image: linear-gradient(to bottom right, #243748, #4b749f);
 }
+
+.container {
+    /* width: fit-content; */
+    /* border-style: whitesmoke; */
+}
+
+/* .boardContainer {
+    justify-content: center;
+    width: fit-content;
+} */
 
 h2, h3 {
     color: greenyellow;
@@ -38,11 +48,11 @@ h2 {
 }
 
 th {
-    color: black;
+    color: white;
 }
 
 td {
-    color: orange;
+    color: white;
 }
 
 .leaderboardHeading {

@@ -19,3 +19,6 @@
     margin: 13.5em auto 1em;
 }
 
+#twoHundredQuestions {
+    background-image: linear-gradient(green, blue);
+}

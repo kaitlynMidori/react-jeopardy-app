@@ -8,10 +8,7 @@
     height: 10em;
     padding: .1em;
     border-style: solid;
-    border-image-slice: 1;
-    border-width: 5px;
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-    /* border-color: whitesmoke; */
+    border-color: whitesmoke;
     font-family: 'Lexend', sans-serif;
     text-transform: uppercase;
     /* background: transparent; */
@@ -33,3 +30,9 @@
     padding: 2rem;
   } */
 
+  .gradient-box {
+    display: flex;
+    align-items: center;
+    margin: auto;
+      background-color: yellow;
+  }

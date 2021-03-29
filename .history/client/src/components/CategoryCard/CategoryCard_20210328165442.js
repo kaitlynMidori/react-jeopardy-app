@@ -7,7 +7,6 @@ function CategoryCard(props) {
     <div className="col catCol" >
       {/* <div class="module-border-wrap"><div class="module"></div> */}
             <div className="card catBox">
-            {/* <div class="gradient-box"> */}
                 <div className="card-body text-center catCard">
                   {props.title}
                 </div>

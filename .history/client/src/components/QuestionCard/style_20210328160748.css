@@ -1,0 +1,23 @@
+.questionCard {
+    height: 6em;
+    width: 7em;
+    border-style: solid;
+    color: tomato;
+    
+}
+
+.btn-link {
+    padding: 15px;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-color: transparent;
+    font-size: 1em;
+    font-weight: bold;
+    color: linear-gradient(#ffd89b, #19547b);
+}
+
+.btn-link:hover {
+    color: white;
+}
+

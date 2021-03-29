@@ -19,3 +19,6 @@
     margin: 13.5em auto 1em;
 }
 
+.row {
+    background: linear-gradient(green, blue);
+}

@@ -7,6 +7,10 @@ body {
     background-image: linear-gradient(to bottom right, #243748, #4b749f);
 }
 
+.mb-2 {
+    background-color: turquoise;
+}
+
 h2, h3 {
     color: greenyellow;
     font-family: 'Lexend', sans-serif;

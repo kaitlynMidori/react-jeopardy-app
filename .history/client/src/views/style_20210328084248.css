@@ -7,6 +7,16 @@ body {
     background-image: linear-gradient(to bottom right, #243748, #4b749f);
 }
 
+.container {
+    /* width: fit-content; */
+    /* border-style: whitesmoke; */
+}
+
+/* .boardContainer {
+    justify-content: center;
+    width: fit-content;
+} */
+
 h2, h3 {
     color: greenyellow;
     font-family: 'Lexend', sans-serif;
@@ -42,7 +52,7 @@ th {
 }
 
 td {
-    color: orange;
+    color: white;
 }
 
 .leaderboardHeading {

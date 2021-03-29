@@ -1,14 +1,26 @@
 
 body {
-    color: whitesmoke;
     width: fit-content;
+    /* background-color: #f9dcc4; */
     border-style: solid;
-    border-color: rgb(234, 130, 178);
-    background-image: linear-gradient(to bottom right, #243748, #4b749f);
+    /* border-radius: 20px; */
+    /* border-width: 1em; */
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.container {
+    width: fit-content;
+    border-style: whitesmoke;
+}
+
+.boardContainer {
+    justify-content: center;
+    width: fit-content;
 }
 
 h2, h3 {
-    color: greenyellow;
+    color: whitesmoke;
     font-family: 'Lexend', sans-serif;
 }
 
@@ -17,6 +29,7 @@ h2 {
 }
 
 .playerNumBtn {
+    background: rgb(238, 179, 103);
     border: none;
 }
 
@@ -38,11 +51,11 @@ h2 {
 }
 
 th {
-    color: black;
+    color: white;
 }
 
 td {
-    color: orange;
+    color: white;
 }
 
 .leaderboardHeading {
