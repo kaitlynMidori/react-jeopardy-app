@@ -1,0 +1,57 @@
+
+body {
+    color: whitesmoke;
+    width: fit-content;
+    border-style: solid;
+    border-color: rgb(234, 130, 178);
+    background-image: linear-gradient(to bottom right, #243748, #4b749f);
+}
+
+h2, h3 {
+    color: greenyellow;
+    font-family: 'Lexend', sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+.playerNumBtn {
+    border: none;
+}
+
+.playerNumBtn:hover {
+    background: rgb(26, 23, 168);
+    border: none;
+}
+
+.endGameBtn {
+    background: transparent
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    /* border-color: whitesmoke; */
+    font-size: 20px;
+}
+
+.endGameBtn:hover {
+    background: red;
+    border: none;
+}
+
+th {
+    color: black;
+}
+
+td {
+    color: orange;
+}
+
+.leaderboardHeading {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+

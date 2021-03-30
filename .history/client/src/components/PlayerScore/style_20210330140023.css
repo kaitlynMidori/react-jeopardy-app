@@ -1,0 +1,9 @@
+.input-field {
+    
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: orange;
+    background: transparent;
+    outline: none;
+} 

@@ -1,0 +1,30 @@
+.questionCard {
+    height: 6em;
+    width: 7em;
+    border-style: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    /* border-image-source: linear-gradient( #fbb034, #ffdd00); */
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.btn-link {
+    color: white;
+    padding: 15px;
+    background: none;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-color: transparent;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    border: transparent;
+    background: transparent;
+    color: yellow;
+}
+
+
+

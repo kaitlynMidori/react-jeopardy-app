@@ -1,0 +1,19 @@
+.catCard {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 7em;
+    height: 10em;
+    padding: .1em;
+    border-style: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, rgb(13, 40, 70), rgb(171,118,33), rgb(249,214,14));
+    font-family: 'Lexend', sans-serif;
+    text-transform: uppercase;
+    overflow: auto;
+   
+}

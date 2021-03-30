@@ -1,0 +1,14 @@
+.NavBar a, .NavBar button {
+	margin: 0 5px 10px 0;
+	cursor: pointer;
+	color: whitesmoke;
+	
+}
+
+.NavBar {
+	/* background-image: url("../src/jeopardyLogo.jpg");
+    background-repeat: no-repeat; */
+	/* border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #fbb034, #ffdd00); */
+}

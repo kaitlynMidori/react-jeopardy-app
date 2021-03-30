@@ -7,6 +7,9 @@
 
 .NavBar {
 	margin-bottom: 20px;
-	background-color: rgb(0, 12, 153);
-	
+	/* background-image: url("../src/jeopardyLogo.jpg");
+    background-repeat: no-repeat; */
+	/* border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #fbb034, #ffdd00); */
 }

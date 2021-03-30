@@ -1,0 +1,24 @@
+.catCard {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 7em;
+    height: 10em;
+    padding: .1em;
+    border-style: solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    /* border-image-source: linear-gradient( #fbb034, #ffdd00); */
+    /* border-image-source: linear-gradient(rgb(242, 158, 123),rgb(217, 101, 96), rgb(134, 31, 79)); */
+    font-family: 'Lexend', sans-serif;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: auto;
+   
+}

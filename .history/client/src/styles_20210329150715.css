@@ -1,0 +1,13 @@
+.NavBar a, .NavBar button {
+	margin: 0 5px;
+	cursor: pointer;
+	color: whitesmoke;
+	
+}
+
+.NavBar {
+	padding: 5px;
+	margin-bottom: 20px;
+	background: linear-gradient(#fbb034, #ffdd00);
+	
+}

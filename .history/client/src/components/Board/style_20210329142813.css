@@ -1,0 +1,26 @@
+
+
+.boardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: linear-gradient(#ffd89b, #19547b);
+    border-style: solid;
+    border-image-source: linear-gradient( #fbb034, #ffdd00);
+    /* border-color: rgb(156, 48, 123); */
+}
+
+.rowAndColumn {
+    position: 2;
+}
+
+.host {
+    position: 1;
+    margin: 13.5em auto 1em;
+}
+
+
+
