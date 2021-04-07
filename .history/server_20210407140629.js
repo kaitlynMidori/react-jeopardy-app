@@ -27,13 +27,9 @@ app.use(express.static(`${__dirname}/client/build`))
 app.use(logger('dev'))
 app.use(bodyParser.json())
 
-// app.get('/api', (req, res) => {
-// 	res.json({message: "API root."})
-// })
-
-app.get('/', (req, res) => {
-	res.send(`Active endpoints: '/api/players-scores/'`)
-  });
+app.get('/api', (req, res) => {
+	res.json({message: "API root."})
+})
 
 app.use('/api/users', usersRoutes)
 
@@ -44,15 +40,4 @@ app.use('*', (req, res) => {
 app.listen(PORT, (err) => {
 	console.log(err || `Server running on port ${PORT}.`)
 })
-
-app.use(function errorHandler(error, req, res, next) {
-	let response;
-	if (NODE_ENV === 'production') {
-	  response = { error: { message: 'server error' } };
-	} else {
-	  console.error(error);
-	  response = { message: error.message, error };
-	}
-	res.status(500).json(response);
-  });
 
