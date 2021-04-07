@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* width: fit-content; */
+    border-style: solid;
+    border-color: transparent;
+    overflow: hidden;
+   background-image: url("../jeopardy.jpeg");
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: cover;
+   /* top: 0; */
+   height: 100vh;
+    /* border-image-slice: 1; */
+    /* border-image-source: linear-gradient( #fbb034, #ffdd00); */
+    /* background-image: linear-gradient(to bottom right, #243748, #4b749f); */
+}
+
+h2, h3 {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+.playerNumBtn {
+    border: none;
+}
+
+.playerNumBtn:hover {
+    background: rgb(26, 23, 168);
+    border: none;
+}
+
+.endGameBtn {
+    background: transparent;
+    border: solid;
+    /* border-image-slice: 1; */
+    border-width: 3px;
+    /* border-image-source: linear-gradient(to left, #fbb034, #ffdd00); */
+    border-color: orange;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.endGameBtn:hover {
+    background: red;
+    border: none;
+}
+
+th {
+    color: black;
+}
+
+td {
+    color: orange;
+}
+
+.leaderboardHeading {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+
