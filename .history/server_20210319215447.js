@@ -9,14 +9,18 @@ const
 	PORT = process.env.PORT || 3001,
 	usersRoutes = require('./routes/users.js')
 
+	const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';
+
 mongoose.set('useCreateIndex', true)
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, (err) => {
 	console.log(err || `Connected to MongoDB.`)
 })
 
 app.use(express.static(`${__dirname}/client/build`))
+app.use(morgan(morganOption));
 app.use(logger('dev'))
-app.use(bodyParser.json())
+app.use(cors());
+app.use(express.json())
 
 app.get('/api', (req, res) => {
 	res.json({message: "API root."})
