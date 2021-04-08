@@ -6,7 +6,7 @@ const
 	bodyParser = require('body-parser'),
 	mongoose = require('mongoose'),
 	MONGODB_URI = process.env.MONGODB_URI || 'mongodb://local/react-jeopardy-app.users',
-	PORT = process.env.PORT || 8000,
+	PORT = process.env.PORT || 3001,
 	usersRoutes = require('./routes/users.js')
 	cors = require('cors')
 	

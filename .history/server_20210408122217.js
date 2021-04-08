@@ -1,22 +1,36 @@
+require('dotenv').config();
 const
-	dotenv = require('dotenv').load(),
+	// dotenv = require('dotenv').load(),
 	express = require('express'),
 	app = express(),
+	morgan = require('morgan');
 	logger = require('morgan'),
 	bodyParser = require('body-parser'),
 	mongoose = require('mongoose'),
 	MONGODB_URI = process.env.MONGODB_URI || 'mongodb://local/react-jeopardy-app.users',
 	PORT = process.env.PORT || 8000,
 	usersRoutes = require('./routes/users.js')
+	apiRoutes = require('./routes/api-routes.js')
 	cors = require('cors')
 	
 const {CLIENT_ORIGIN} = require('./config');
+const apiRoutes = require('./routes/api-routes.js');
+const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';
 
-app.use(
-    cors({
-        origin: CLIENT_ORIGIN
-    })
-);
+const app = express();
+app.use(morgan(morganOption));
+app.use(helmet());
+app.use(cors());
+app.use(express.json());
+
+// const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';
+// app.use(morgan(morganSetting))
+
+// app.use(
+//     cors({
+//         origin: CLIENT_ORIGIN
+//     })
+// );
 
 mongoose.set('useCreateIndex', true)
 mongoose.connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true }, (err) => {
@@ -31,11 +45,14 @@ app.use(bodyParser.json())
 // 	res.json({message: "API root."})
 // })
 
+app.use(`/api/users`, usersRoutes)
+app.use(`/api/players-scores`, apiRoutes)
+
 app.get('/', (req, res) => {
 	res.send(`Active endpoints: '/api/players-scores/'`)
   });
 
-app.use('/api/users', usersRoutes)
+
 
 app.use('*', (req, res) => {
 	res.sendFile(`${__dirname}/client/build/index.html`)

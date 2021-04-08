@@ -8,7 +8,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "predeploy": "npm audit",
-    "deploy": "git push heroku master",
+    "deploy": "git push heroku main",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "keywords": [],
@@ -25,7 +25,6 @@
     "express": "^4.16.2",
     "jsonwebtoken": "^8.1.0",
     "mongoose": "^5.12.3",
-    "morgan": "^1.9.1",
-    "passport": "^0.4.1"
+    "morgan": "^1.9.1"
   }
 }

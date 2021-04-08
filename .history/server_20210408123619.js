@@ -2,6 +2,7 @@ const
 	dotenv = require('dotenv').load(),
 	express = require('express'),
 	app = express(),
+	morgan = require('morgan');
 	logger = require('morgan'),
 	bodyParser = require('body-parser'),
 	mongoose = require('mongoose'),
@@ -11,6 +12,8 @@ const
 	cors = require('cors')
 	
 const {CLIENT_ORIGIN} = require('./config');
+const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';
+app.use(morgan(morganSetting))
 
 app.use(
     cors({
