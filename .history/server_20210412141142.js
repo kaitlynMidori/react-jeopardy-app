@@ -1,25 +1,17 @@
-require('dotenv').config();
-
-dotenv = require('dotenv').load();
-bodyParser = require('body-parser');
-const express = require('express');
-const app = express();
-const logger = require('morgan');
-const mongoose = require('mongoose');
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://local/react-jeopardy-app.users';
-const PORT = process.env.PORT || 8000;
-const usersRoutes = require('./routes/users.js');
-const cors = require('cors');
-// const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';	
+const
+	dotenv = require('dotenv').load(),
+	express = require('express'),
+	app = express(),
+	logger = require('morgan'),
+	bodyParser = require('body-parser'),
+	mongoose = require('mongoose'),
+	MONGODB_URI = process.env.MONGODB_URI || 'mongodb://local/react-jeopardy-app.users',
+	PORT = process.env.PORT || 8000,
+	usersRoutes = require('./routes/users.js')
+	cors = require('cors')
+	
+	
 const {CLIENT_ORIGIN} = require('./config');
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://root:rootpass@cluster0.00zbw.mongodb.net/react-jeopardy-app?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-client.connect(err => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
 
 app.use(
     cors({
