@@ -5,13 +5,14 @@ const
 	logger = require('morgan'),
 	bodyParser = require('body-parser'),
 	mongoose = require('mongoose'),
+	MongoClient = require('mongodb').MongoClient;
 	MONGODB_URI = process.env.MONGODB_URI || 'mongodb://local/react-jeopardy-app.users',
 	PORT = process.env.PORT || 8000,
 	usersRoutes = require('./routes/users.js')
 	cors = require('cors')
 
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://root:rootpass@cluster0.00zbw.mongodb.net/react-jeopardy-app.users?retryWrites=true&w=majority";
+const uri = "mongodb+srv://root:<password>@cluster0.00zbw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
 	const collection = client.db("test").collection("devices");
