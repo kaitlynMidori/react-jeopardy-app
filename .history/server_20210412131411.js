@@ -9,7 +9,6 @@ const
 	PORT = process.env.PORT || 8000,
 	usersRoutes = require('./routes/users.js')
 	cors = require('cors')
-	db = require('./config/keys').MONGODB_URI
 	
 const {CLIENT_ORIGIN} = require('./config');
 
