@@ -20,7 +20,7 @@ class UsersContextProvider extends Component {
   }
 
   componentDidMount = async () => {
-    const res = await fetch(`${API_URL}/api`, {
+    const res = await fetch(`${API_URL}/api/users`, {
       credentials: 'include',
     });
     const data = await res.json();

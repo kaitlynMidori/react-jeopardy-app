@@ -1,8 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
-import { UsersContextProvider } from './contexts/Users.js'
-import * as serviceWorker from './serviceWorker'
+import { UsersContextProvider } from './contexts/Users.js';
 import 'milligram'
 import './styles.css'
 
