@@ -7,6 +7,7 @@ const app = express();
 const logger = require('morgan');
 const { NODE_ENV } = require('./config');
 const mongoose = require('mongoose');
+const passport = require("passport"),
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://local/react-jeopardy-app.users';
 const PORT = process.env.PORT || 8000;
 const usersRoutes = require('./routes/users.js');
@@ -22,8 +23,6 @@ client.connect(err => {
   client.close();
 });
 
-require('./models');
-
 app.use(
     cors({
         origin: CLIENT_ORIGIN
@@ -37,7 +36,7 @@ mongoose.connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true 
 
 app.use(express.static(`${__dirname}/client/build`))
 app.use(logger('dev'))
-app.use(express.urlencoded({ extended: true }))
+
 app.use(express.json())
 
 // app.get('/api', (req, res) => {

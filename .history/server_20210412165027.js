@@ -7,6 +7,7 @@ const app = express();
 const logger = require('morgan');
 const { NODE_ENV } = require('./config');
 const mongoose = require('mongoose');
+const passport = require("passport"),
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://local/react-jeopardy-app.users';
 const PORT = process.env.PORT || 8000;
 const usersRoutes = require('./routes/users.js');
@@ -21,8 +22,6 @@ client.connect(err => {
   // perform actions on the collection object
   client.close();
 });
-
-require('./models');
 
 app.use(
     cors({

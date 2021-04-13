@@ -22,8 +22,6 @@ client.connect(err => {
   client.close();
 });
 
-require('./models');
-
 app.use(
     cors({
         origin: CLIENT_ORIGIN
@@ -37,7 +35,6 @@ mongoose.connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true 
 
 app.use(express.static(`${__dirname}/client/build`))
 app.use(logger('dev'))
-app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
 // app.get('/api', (req, res) => {

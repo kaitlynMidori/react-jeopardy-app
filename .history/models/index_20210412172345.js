@@ -39,7 +39,7 @@
 const mongoose = require('mongoose');
 const URI = require('../config/index');
 
-mongoose.connect(process.env.MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true } || URI);
+mongoose.connect(process.env.MONGODB_URI || URI);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {

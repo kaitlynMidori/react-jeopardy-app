@@ -22,8 +22,6 @@ client.connect(err => {
   client.close();
 });
 
-require('./models');
-
 app.use(
     cors({
         origin: CLIENT_ORIGIN
